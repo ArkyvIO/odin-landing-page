@@ -61,6 +61,10 @@ body {
     color: var(--header-logo-text);
 }
 
+#hero-image {
+    flex: 1;
+}
+
 #hero-image img {
     width: 100%;
     height: auto;
@@ -127,6 +131,7 @@ body {
     flex-direction: column;
     gap: 15px;
     flex: 1;
+    justify-content: center;
 }
 
 .col-container p {
