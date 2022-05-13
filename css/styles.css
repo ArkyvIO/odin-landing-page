@@ -63,6 +63,7 @@ body {
 
 #hero-image {
     flex: 1;
+    align-self: center;
 }
 
 #hero-image img {
@@ -124,6 +125,31 @@ body {
     margin-top: -100px;
     align-self: flex-end;
     margin-bottom: 75px;
+}
+
+#call-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: var(--call-background);
+    padding: 50px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.sign-col-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up-button {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .col-container {
