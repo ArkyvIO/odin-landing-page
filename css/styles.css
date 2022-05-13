@@ -1,26 +1,14 @@
-/* Colors I like to use, from the nord palette */
-
+/* Colors indicated by Odin Project */
 :root {
-    /* Polar Night */
-    --first-dark: #2e3440;
-    --first-dark-transparent: #2e3440CC;
-    --second-dark: #3b4252;
-    --third-dark: #434c5e;
-    --fourth-dark: #4c566a;
-
-    /* Snow Storm */
-    --first-light: #d8dee9;
-    --second-light: #e5e9f0;
-    --third-light: #eceff4;
-
-    /* Link Orande */
-    --link-orange: #d08770;
-
-    /* Background Colors */
-    --background-dark: #1A1D24;
+    --dark-background-color: #1F2937;
+    --hero-background-color: #1F2937;
+    --hero-secondary-text: #E5E7EB;
+    --header-logo-text: #F9FAF8;
+    --button-color: #3882F6;
+    --information-header-text: #1F2937;
+    --quote-section-background: #E5E7Eb;
+    --quote-text: #1F2937;
 }
-
-
 html {
     /* Box sizing to total values set, not added after the fact */
     box-sizing: border-box;
