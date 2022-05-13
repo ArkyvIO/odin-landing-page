@@ -9,12 +9,15 @@
     --quote-section-background: #E5E7Eb;
     --quote-text: #1F2937;
 }
+
 html {
     /* Box sizing to total values set, not added after the fact */
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     /* Use box sizing for all */
     box-sizing: inherit;
 }
