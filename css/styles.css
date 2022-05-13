@@ -59,10 +59,20 @@ body {
 
 .header-container {
     position: fixed;
+    display: flex;
     width: 100%;
     background-color: var(--dark-background-color);
     color: var(--header-logo-text);
     height: 5vh;
+}
+
+.size-container-header {
+    display: flex;
+    max-width: 75%;
+    gap: 25px;
+    margin: auto;
+    flex: 1;
+    justify-content: space-between;
 }
 
 .hero-container {
