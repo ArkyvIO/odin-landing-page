@@ -5,8 +5,9 @@
     --hero-secondary-text: #E5E7EB;
     --header-logo-text: #F9FAF8;
     --button-color: #3882F6;
+    --call-background: #3882F6;
     --information-header-text: #1F2937;
-    --quote-section-background: #E5E7Eb;
+    --quote-section-background: #E5E7EB;
     --quote-text: #1F2937;
 }
 
@@ -25,4 +26,29 @@ html {
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.size-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: auto;
+    padding: 25px;
+}
+
+.header-container {
+    background-color: var(--dark-background-color);
+    color: var(--header-logo-text);
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
 }
