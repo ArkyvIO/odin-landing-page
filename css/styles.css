@@ -99,6 +99,11 @@ body {
     background-color: var(--button-color);
     padding: 8px;
     border-radius: 10px;
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+
+#hero-button:hover {
+    transform: scale(1.1);
 }
 
 #hero-p {
@@ -120,6 +125,11 @@ body {
     background-color: var(--header-logo-text);
     color: var(--dark-background-color);
     box-shadow: 0 4px 8px 0 rgba(167, 163, 163, 0.2), 0 6px 20px 0 rgba(179, 173, 173, 0.19);
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+
+#nav-list li:hover {
+    transform: scale(1.1);
 }
 
 .info-container {
@@ -143,6 +153,11 @@ body {
     background-color: var(--hero-secondary-text);
     width: 100%;
     height: auto;
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+
+.info-image:hover {
+    transform: scale(1.05);
 }
 
 .info-image img {
@@ -192,6 +207,11 @@ body {
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+
+#sign-up-button:hover {
+    transform: scale(1.1);
 }
 
 .col-container {
