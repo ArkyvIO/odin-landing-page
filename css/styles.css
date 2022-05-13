@@ -63,6 +63,13 @@ body {
     border: #E5E7EB 3px solid;
 }
 
+#hero-button {
+    align-self: center;
+    background-color: var(--button-color);
+    padding: 8px;
+    border-radius: 10px;
+}
+
 #nav-list {
     display: flex;
     list-style-type: none;
@@ -74,6 +81,7 @@ body {
     flex-direction: column;
     width: 50%;
     margin: auto;
+    gap: 15px;
 }
 
 #hero-title {
