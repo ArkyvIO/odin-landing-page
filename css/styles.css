@@ -47,8 +47,18 @@ body {
     color: var(--header-logo-text);
 }
 
+.hero-container {
+    background-color: var(--dark-background-color);
+    color: var(--header-logo-text);
+}
+
 #nav-list {
     display: flex;
     list-style-type: none;
     gap: 10px;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: column;
 }
