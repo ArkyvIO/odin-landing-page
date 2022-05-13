@@ -214,6 +214,7 @@ body {
 }
 
 .call-container {
+    display: flex;
     background-color: #FFFFFF;
     height: 35vh;
 }
